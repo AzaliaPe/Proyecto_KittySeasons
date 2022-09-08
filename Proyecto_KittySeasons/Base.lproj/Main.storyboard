@@ -24,14 +24,33 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hCX-Fm-iz7">
                                 <rect key="frame" x="10" y="97" width="393.5" height="358.5"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-tl-U2d">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gatito_Verano19" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-tl-U2d" userLabel="Spring">
                                 <rect key="frame" x="10" y="497.5" width="193" height="179"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="8Qp-FA-6TC" appends="YES" id="FmM-BE-jCN"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U93-1o-DVR">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gatito_Verano19" translatesAutoresizingMaskIntoConstraints="NO" id="U93-1o-DVR" userLabel="Summer">
                                 <rect key="frame" x="211" y="497.5" width="193" height="179"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AoD-lX-0St" appends="YES" id="Sa0-Jk-pcq"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-n4-ol4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gatito_Verano19" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-n4-ol4" userLabel="Fall">
                                 <rect key="frame" x="10" y="682.5" width="193" height="179.5"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="41e-TU-Vbt" appends="YES" id="WId-za-Sxx"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gatito_Verano19" translatesAutoresizingMaskIntoConstraints="NO" id="6Z6-gn-vHZ" userLabel="Winter">
+                                <rect key="frame" x="211" y="682.5" width="193" height="179.5"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="twH-PH-7ce" appends="YES" id="bOt-Pp-dVv"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitt Seasons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUW-kq-twl">
                                 <rect key="frame" x="0.0" y="44" width="414" height="43"/>
@@ -42,15 +61,12 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yf7-cc-Cje">
                                 <rect key="frame" x="599" y="189.66666666666666" width="203" height="123.99999999999997"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaq-NM-T71">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an option:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaq-NM-T71">
                                 <rect key="frame" x="0.0" y="461.5" width="414" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Z6-gn-vHZ">
-                                <rect key="frame" x="211" y="682.5" width="193" height="179.5"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qh8-28-dx5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
                             </imageView>
@@ -165,16 +181,11 @@
                                 <exclude reference="yf7-cc-Cje"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="55d-eE-Anp"/>
-                                <exclude reference="DGp-JO-ao5"/>
-                                <exclude reference="W2C-KQ-j5k"/>
-                                <exclude reference="mcZ-4y-E4V"/>
-                                <exclude reference="nnf-Lq-Cum"/>
+                                <exclude reference="Rbk-XK-Buq"/>
                                 <exclude reference="Ahr-eD-hsY"/>
                                 <exclude reference="D7j-N2-C0S"/>
                                 <exclude reference="vwL-bH-Fhh"/>
                                 <exclude reference="zfm-uE-fZA"/>
-                                <exclude reference="Rbk-XK-Buq"/>
                                 <exclude reference="0Kz-W9-vh3"/>
                                 <exclude reference="KbF-mk-WK8"/>
                                 <exclude reference="SRn-cJ-WX1"/>
@@ -208,19 +219,23 @@
                                 <exclude reference="btT-RK-12a"/>
                                 <exclude reference="cm7-BI-sJf"/>
                                 <exclude reference="veG-Ed-61y"/>
+                                <exclude reference="55d-eE-Anp"/>
+                                <exclude reference="DGp-JO-ao5"/>
+                                <exclude reference="W2C-KQ-j5k"/>
+                                <exclude reference="mcZ-4y-E4V"/>
+                                <exclude reference="nnf-Lq-Cum"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="subviews">
-                                <include reference="yf7-cc-Cje"/>
                                 <exclude reference="6Z6-gn-vHZ"/>
+                                <include reference="yf7-cc-Cje"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="55d-eE-Anp"/>
-                                <include reference="DGp-JO-ao5"/>
-                                <include reference="W2C-KQ-j5k"/>
-                                <include reference="mcZ-4y-E4V"/>
-                                <include reference="nnf-Lq-Cum"/>
+                                <exclude reference="Jl9-6S-H0Y"/>
+                                <exclude reference="Rbk-XK-Buq"/>
+                                <exclude reference="i9g-Cf-mbV"/>
+                                <exclude reference="xkl-ws-r3z"/>
                                 <include reference="Ahr-eD-hsY"/>
                                 <include reference="D7j-N2-C0S"/>
                                 <exclude reference="Geb-kU-y4R"/>
@@ -229,10 +244,6 @@
                                 <exclude reference="uY9-6D-f5E"/>
                                 <include reference="vwL-bH-Fhh"/>
                                 <include reference="zfm-uE-fZA"/>
-                                <exclude reference="Jl9-6S-H0Y"/>
-                                <exclude reference="Rbk-XK-Buq"/>
-                                <exclude reference="i9g-Cf-mbV"/>
-                                <exclude reference="xkl-ws-r3z"/>
                                 <exclude reference="0Kz-W9-vh3"/>
                                 <exclude reference="KbF-mk-WK8"/>
                                 <exclude reference="NTt-uN-sT9"/>
@@ -289,13 +300,44 @@
                                 <exclude reference="gYn-BV-cLN"/>
                                 <exclude reference="gob-gR-Pw4"/>
                                 <exclude reference="veG-Ed-61y"/>
+                                <include reference="55d-eE-Anp"/>
+                                <include reference="DGp-JO-ao5"/>
+                                <include reference="W2C-KQ-j5k"/>
+                                <include reference="mcZ-4y-E4V"/>
+                                <include reference="nnf-Lq-Cum"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="lblOption" destination="Jaq-NM-T71" id="UBp-bV-hiB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8Qp-FA-6TC" userLabel="Tap_Spring">
+                    <connections>
+                        <action selector="doTapSpring:" destination="BYZ-38-t0r" id="fc7-75-neL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AoD-lX-0St" userLabel="Tap_Summer">
+                    <connections>
+                        <action selector="doTapSummer:" destination="BYZ-38-t0r" id="bbs-bo-351"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="41e-TU-Vbt" userLabel="Tap_Fall">
+                    <connections>
+                        <action selector="doTapFall:" destination="BYZ-38-t0r" id="TiG-SW-Vbh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="twH-PH-7ce" userLabel="Tap_Winter">
+                    <connections>
+                        <action selector="doTapWinter:" destination="BYZ-38-t0r" id="k41-gO-b5J"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="126" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gatito_Verano19" width="987" height="1080"/>
+    </resources>
 </document>
